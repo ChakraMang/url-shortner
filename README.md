@@ -9,10 +9,6 @@ A URL shortener website with a user-friendly frontend and a robust backend. Shor
 - [Features](#features)
 - [Folder Structure](#folder-structure)
 - [Installation](#installation)
-- [Usage](#usage)
-- [API Documentation](#api-documentation)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Features
 
