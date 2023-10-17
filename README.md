@@ -1,6 +1,6 @@
 # URL Shortener Website
 
-![Website Preview]('./client/src/Assests/website.PNG')
+![Website Preview]('../../client/src/Assests/website.PNG')
 
 A URL shortener website with a user-friendly frontend and a robust backend. Shorten long URLs with ease and manage your shortened links efficiently.
 
