@@ -1,0 +1,82 @@
+.box-container {
+  background:rgba(139,0,121, 0.2); /* Box background color with transparency */
+  border: 1px solid rgb(190,0,188);
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  max-width: 400px; /* Adjust the maximum width as needed */
+  margin: 0 auto;
+}
+
+
+
+.home-container {
+  position: relative;
+  background-image: url('../../Assests/backgground.jpg');
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+}
+
+.circle {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #ff5733;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+}
+
+.title {
+  font-size: 2rem;
+}
+
+.url-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.url-input {
+  margin: 5px;
+  padding: 10px;
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+}
+
+.error-text {
+  color: red;
+}
+
+.shorten-button {
+  background-color: #32cd32;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.short-url-container {
+  margin-top: 20px;
+}
+
+.short-url-label {
+  font-weight: bold;
+}
+
+.short-url {
+  color: #007bff;
+  cursor: pointer;
+}
+
+.short-url:hover {
+  text-decoration: underline;
+}
